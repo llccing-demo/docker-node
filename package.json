@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/llccing-demo/docker-node#readme",
   "dependencies": {
-    "koa": "^2.13.1"
+    "bluebird": "^3.7.2",
+    "koa": "^2.13.1",
+    "redis": "^3.1.2"
   }
 }
