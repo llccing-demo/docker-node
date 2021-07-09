@@ -26,8 +26,14 @@ docker run -i -t -p 8080:8080 docker-demo/hello-docker:v1
 # 后台启动镜像
 docker run -d -p 8080:8080 docker-demo/hello-docker:v2
 
-# 查看日志， logs 后跟着的id可以通过 docker ps 查看，为container Id。
-docker logs 271ec6f570743d393b74d48a6bad7f6bf115ee9d81cecaa6f44f0e160ff87241
+# 查看日志， logs 后跟着的xxx可以通过 docker ps 查看，为container Id。
+docker logs xxx
+
+# 登录 docker node
+docker exec -i -t xxx bash
+
+# 移除正在运行的docker
+docker rm xxx
 ```
 
 ## tips
