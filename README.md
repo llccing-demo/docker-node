@@ -5,7 +5,7 @@
 - 先启动一个简单的 docker node 程序
 
 ```sh
-// 编写 Dockerfile
+# 编写 Dockerfile
 FROM node:8.9.1
 
 # 复制当前代码到指定目录下
@@ -14,15 +14,20 @@ EXPOSE 8080
 RUN npm i
 CMD npm run dev
 
-// 镜像构建，注意后面的点 很重要；这里的 :v1 是tab，用来做版本区分
+# 镜像构建，注意后面的点 很重要；这里的 :v1 是tab，用来做版本区分
 docker build -t docker-demo/hello-docker:v1 .
 
-// 查看镜像
+# 查看镜像
 docker images
 
-// 启动镜像 -p 是 port 宿主端口:容器端口
+# 启动镜像 -p 是 port 宿主端口:容器端口
 docker run -i -t -p 8080:8080 docker-demo/hello-docker:v1
 
+# 后台启动镜像
+docker run -d -p 8080:8080 docker-demo/hello-docker:v2
+
+# 查看日志， logs 后跟着的id可以通过 docker ps 查看，为container Id。
+docker logs 271ec6f570743d393b74d48a6bad7f6bf115ee9d81cecaa6f44f0e160ff87241
 ```
 
 ## tips
