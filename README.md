@@ -59,7 +59,11 @@ docker-compose up --build
 # 查看容器运行状态
 docker-compose ps
 
+# 查看容器日志
+docker-compose logs
 
+# 暂停容器
+docker-compose stop
 
 ```
 
