@@ -67,6 +67,19 @@ docker-compose stop
 
 ```
 
+### 集群操作
+
+```shell
+# 开启集群
+docker swarm init
+
+# 暂停集群
+docker swarm leave
+
+# 查看集群容器日志
+
+```
+
 ## tips
 
 ### docker build 失败解决
@@ -76,3 +89,5 @@ docker-compose stop
 ## 参考
 
 - [https://segmentfault.com/a/1190000019512222?utm_source=sf-similar-article](https://segmentfault.com/a/1190000019512222?utm_source=sf-similar-article) 使用 docker 部署 node 应用
+
+- [https://segmentfault.com/a/1190000012654303](https://segmentfault.com/a/1190000012654303) 使用docker部署node集群
