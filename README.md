@@ -2,7 +2,8 @@
 # node-docker 实践
 
 ## 操作步骤
-- 先启动一个简单的 docker node 程序
+
+### 先启动一个简单的 docker node 程序
 
 ```sh
 # 编写 Dockerfile
@@ -34,6 +35,32 @@ docker exec -i -t xxx bash
 
 # 移除正在运行的docker
 docker rm xxx
+```
+
+### 使用 docker-compose 启动 docker node 程序
+
+```shell
+# docker-compose.yml 内容
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "8080:8080"
+  redis:
+    image: "redis:alpine"
+
+# 启动 docker-compose
+docket-compose up -d
+
+# 使用该命令重新构建，当出现错误的时候
+docker-compose up --build
+
+# 查看容器运行状态
+docker-compose ps
+
+
+
 ```
 
 ## tips
