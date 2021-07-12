@@ -22,10 +22,10 @@ docker build -t docker-demo/hello-docker:v3 .
 docker images
 
 # 启动镜像 -p 是 port 宿主端口:容器端口
-docker run -i -t -p 8080:8080 docker-demo/hello-docker:v1
+docker run -i -t -p 8080:8080 docker-demo/hello-docker:v3
 
 # 后台启动镜像
-docker run -d -p 8080:8080 docker-demo/hello-docker:v2
+docker run -d -p 8080:8080 docker-demo/hello-docker:v3
 
 # 查看日志， logs 后跟着的xxx可以通过 docker ps 查看，为container Id。
 docker logs xxx
