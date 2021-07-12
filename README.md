@@ -16,7 +16,7 @@ RUN npm i
 CMD npm run dev
 
 # 镜像构建，注意后面的点 很重要；这里的 :v1 是tab，用来做版本区分
-docker build -t docker-demo/hello-docker:v1 .
+docker build -t docker-demo/hello-docker:v3 .
 
 # 查看镜像
 docker images
@@ -51,7 +51,7 @@ services:
     image: "redis:alpine"
 
 # 启动 docker-compose
-docket-compose up -d
+docker-compose up -d
 
 # 使用该命令重新构建，当出现错误的时候
 docker-compose up --build
@@ -73,6 +73,9 @@ docker-compose stop
 # 开启集群
 docker swarm init
 
+# 部署集群
+docker stack deploy -c docker-compose.yml node-swarm
+
 # 暂停集群
 docker swarm leave
 
@@ -85,6 +88,10 @@ docker swarm leave
 ### docker build 失败解决
 
 尝试两次docker build失败，后来发现通过切换dns 改为114:114:114:114即可，或者8:8:8:8。
+
+### 切换镜像目录
+
+参考的如下的文档 [https://stackoverflow.com/questions/40465979/change-docker-native-images-location-on-windows-10-pro](https://stackoverflow.com/questions/40465979/change-docker-native-images-location-on-windows-10-pro) 但是仍没有效果，待以后机缘巧合解决。
 
 ## 参考
 
