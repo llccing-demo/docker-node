@@ -1,0 +1,66 @@
+2021-07-19 16:39:05,760 INFO 3616 [egg:logger] init all loggers with options: {"dir":"D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\logs\\egg-docker-template","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-docker-template-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-19 16:39:05,770 INFO 3616 [egg:core] dump config after load, 6ms
+2021-07-19 16:39:05,837 INFO 3616 [egg-watcher] Start watching: ["D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\config","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks_proxy","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app.js"]
+2021-07-19 16:39:05,837 INFO 3616 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app"
+2021-07-19 16:39:05,837 INFO 3616 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\config"
+2021-07-19 16:39:05,837 INFO 3616 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks"
+2021-07-19 16:39:05,838 INFO 3616 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks_proxy"
+2021-07-19 16:39:05,838 INFO 3616 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app.js"
+2021-07-19 16:39:05,839 INFO 3616 [egg-watcher:agent] watcher start success
+2021-07-19 16:39:05,854 INFO 3616 [egg:core] dump config after ready, 12ms
+2021-07-19 16:39:08,115 INFO 3616 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app\\public","stat":{"dev":3534635683,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474979690214,"size":0,"blocks":0,"atimeMs":1626683948113.2866,"mtimeMs":1626683948113.2866,"ctimeMs":1626683948113.2866,"birthtimeMs":1626683948113.2866,"atime":"2021-07-19T08:39:08.113Z","mtime":"2021-07-19T08:39:08.113Z","ctime":"2021-07-19T08:39:08.113Z","birthtime":"2021-07-19T08:39:08.113Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-07-19 16:47:36,142 INFO 12252 [egg:logger] init all loggers with options: {"dir":"D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\logs\\egg-docker-template","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-docker-template-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-19 16:47:36,149 INFO 12252 [egg:core] dump config after load, 4ms
+2021-07-19 16:47:36,200 INFO 12252 [egg-watcher] Start watching: ["D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\config","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks_proxy","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app.js"]
+2021-07-19 16:47:36,200 INFO 12252 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app"
+2021-07-19 16:47:36,200 INFO 12252 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\config"
+2021-07-19 16:47:36,200 INFO 12252 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks"
+2021-07-19 16:47:36,200 INFO 12252 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks_proxy"
+2021-07-19 16:47:36,200 INFO 12252 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app.js"
+2021-07-19 16:47:36,201 INFO 12252 [egg-watcher:agent] watcher start success
+2021-07-19 16:47:36,216 INFO 12252 [egg:core] dump config after ready, 7ms
+2021-07-19 16:48:54,707 WARN 12252 [agent:development] reload worker because D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\app\database\init.js change
+2021-07-19 16:48:54,498 INFO 12252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app\\database\\init.js","stat":{"dev":3534635683,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":844424932593932,"size":1270,"blocks":8,"atimeMs":1626684534494.231,"mtimeMs":1626684534494.231,"ctimeMs":1626684534494.231,"birthtimeMs":1626682974163.9683,"atime":"2021-07-19T08:48:54.494Z","mtime":"2021-07-19T08:48:54.494Z","ctime":"2021-07-19T08:48:54.494Z","birthtime":"2021-07-19T08:22:54.164Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-19 16:48:54,500 INFO 12252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app\\database\\init.js","stat":{"dev":3534635683,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":844424932593932,"size":1270,"blocks":8,"atimeMs":1626684534494.231,"mtimeMs":1626684534494.231,"ctimeMs":1626684534494.231,"birthtimeMs":1626682974163.9683,"atime":"2021-07-19T08:48:54.494Z","mtime":"2021-07-19T08:48:54.494Z","ctime":"2021-07-19T08:48:54.494Z","birthtime":"2021-07-19T08:22:54.164Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-19 16:48:54,501 INFO 12252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app\\database\\init.js","stat":{"dev":3534635683,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":844424932593932,"size":1270,"blocks":8,"atimeMs":1626684534494.231,"mtimeMs":1626684534494.231,"ctimeMs":1626684534494.231,"birthtimeMs":1626682974163.9683,"atime":"2021-07-19T08:48:54.494Z","mtime":"2021-07-19T08:48:54.494Z","ctime":"2021-07-19T08:48:54.494Z","birthtime":"2021-07-19T08:22:54.164Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-07-19 16:48:56,634 WARN 12252 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-19 16:49:03,551 INFO 32512 [egg:logger] init all loggers with options: {"dir":"D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\logs\\egg-docker-template","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-docker-template-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-19 16:49:03,559 INFO 32512 [egg:core] dump config after load, 4ms
+2021-07-19 16:49:03,607 INFO 32512 [egg-watcher] Start watching: ["D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\config","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks_proxy","D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app.js"]
+2021-07-19 16:49:03,608 INFO 32512 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app"
+2021-07-19 16:49:03,608 INFO 32512 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\config"
+2021-07-19 16:49:03,609 INFO 32512 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks"
+2021-07-19 16:49:03,609 INFO 32512 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\mocks_proxy"
+2021-07-19 16:49:03,609 INFO 32512 [egg-watcher] Start watching: "D:\\Projects\\llccing-demo\\docker-node\\docker-node-ngxin-mongo\\node\\app.js"
+2021-07-19 16:49:03,612 INFO 32512 [egg-watcher:agent] watcher start success
+2021-07-19 16:49:03,628 INFO 32512 [egg:core] dump config after ready, 6ms
+2021-07-19 09:32:15,620 INFO 48 [egg:logger] init all loggers with options: {"dir":"/app/logs/egg-docker-template","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-docker-template-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-19 09:32:15,635 INFO 48 [egg:core] dump config after load, 10ms
+2021-07-19 09:32:15,684 INFO 48 [egg-watcher] Start watching: ["/app/app","/app/config","/app/mocks","/app/mocks_proxy","/app/app.js"]
+2021-07-19 09:32:15,684 INFO 48 [egg-watcher] Start watching: "/app/app"
+2021-07-19 09:32:15,686 INFO 48 [egg-watcher] Start watching: "/app/config"
+2021-07-19 09:32:15,688 INFO 48 [egg-watcher] Start watching: "/app/mocks"
+2021-07-19 09:32:15,688 INFO 48 [egg-watcher] Start watching: "/app/mocks_proxy"
+2021-07-19 09:32:15,689 INFO 48 [egg-watcher] Start watching: "/app/app.js"
+2021-07-19 09:32:15,692 INFO 48 [egg-watcher:agent] watcher start success
+2021-07-19 09:32:15,721 INFO 48 [egg:core] dump config after ready, 17ms
+2021-07-19 09:33:53,371 INFO 47 [egg:logger] init all loggers with options: {"dir":"/app/logs/egg-docker-template","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-docker-template-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-19 09:33:53,388 INFO 47 [egg:core] dump config after load, 12ms
+2021-07-19 09:33:53,429 INFO 47 [egg-watcher] Start watching: ["/app/app","/app/config","/app/mocks","/app/mocks_proxy","/app/app.js"]
+2021-07-19 09:33:53,429 INFO 47 [egg-watcher] Start watching: "/app/app"
+2021-07-19 09:33:53,432 INFO 47 [egg-watcher] Start watching: "/app/config"
+2021-07-19 09:33:53,433 INFO 47 [egg-watcher] Start watching: "/app/mocks"
+2021-07-19 09:33:53,434 INFO 47 [egg-watcher] Start watching: "/app/mocks_proxy"
+2021-07-19 09:33:53,434 INFO 47 [egg-watcher] Start watching: "/app/app.js"
+2021-07-19 09:33:53,436 INFO 47 [egg-watcher:agent] watcher start success
+2021-07-19 09:33:53,467 INFO 47 [egg:core] dump config after ready, 19ms
+2021-07-19 09:38:58,755 INFO 48 [egg:logger] init all loggers with options: {"dir":"/app/logs/egg-docker-template","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-docker-template-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-07-19 09:38:58,773 INFO 48 [egg:core] dump config after load, 13ms
+2021-07-19 09:38:58,817 INFO 48 [egg-watcher] Start watching: ["/app/app","/app/config","/app/mocks","/app/mocks_proxy","/app/app.js"]
+2021-07-19 09:38:58,817 INFO 48 [egg-watcher] Start watching: "/app/app"
+2021-07-19 09:38:58,819 INFO 48 [egg-watcher] Start watching: "/app/config"
+2021-07-19 09:38:58,821 INFO 48 [egg-watcher] Start watching: "/app/mocks"
+2021-07-19 09:38:58,821 INFO 48 [egg-watcher] Start watching: "/app/mocks_proxy"
+2021-07-19 09:38:58,821 INFO 48 [egg-watcher] Start watching: "/app/app.js"
+2021-07-19 09:38:58,825 INFO 48 [egg-watcher:agent] watcher start success
+2021-07-19 09:38:58,855 INFO 48 [egg:core] dump config after ready, 18ms

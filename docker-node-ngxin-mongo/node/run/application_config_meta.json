@@ -1,0 +1,315 @@
+{
+  "keys": "/app/config/config.default.js",
+  "middleware": "/app/config/config.default.js",
+  "jwt": {
+    "secret": "/app/config/config.default.js",
+    "enable": "/app/node_modules/egg-jwt/config/config.default.js"
+  },
+  "gzip": {
+    "threshold": "/app/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/app/config/config.default.js",
+      "ignoreJSON": "/app/config/config.default.js",
+      "type": "/app/node_modules/egg-security/config/config.default.js",
+      "useSession": "/app/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/app/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/app/node_modules/egg-security/config/config.default.js",
+      "headerName": "/app/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/app/node_modules/egg-security/config/config.default.js",
+      "queryName": "/app/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/app/config/config.default.js",
+    "protocolWhiteList": "/app/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/app/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/app/node_modules/egg-security/config/config.default.js",
+      "value": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/app/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/app/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/app/node_modules/egg-security/config/config.default.js",
+      "value": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/app/node_modules/egg-security/config/config.default.js",
+      "value": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/app/node_modules/egg-security/config/config.default.js",
+      "policy": "/app/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/app/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/app/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/app/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/app/config/config.default.js",
+    "allowMethods": "/app/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/app/node_modules/egg-session/config/config.default.js",
+    "key": "/app/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/app/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/app/node_modules/egg-session/config/config.default.js",
+    "logValue": "/app/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/app/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/app/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/app/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/app/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/app/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/app/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/app/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/app/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/app/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/app/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/app/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/app/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/app/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/app/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/app/node_modules/egg-watcher/config/config.default.js",
+      "development": "/app/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/app/node_modules/egg-schedule/config/config.default.js",
+      "file": "/app/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/app/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/app/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/app/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/app/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/app/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/app/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/app/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/app/node_modules/egg-multipart/config/config.default.js",
+    "files": "/app/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/app/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/app/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/app/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/app/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/app/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/app/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/app/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/app/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/app/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/app/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/app/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/app/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/app/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/app/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/app/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/app/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/app/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/app/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/app/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/app/node_modules/egg-static/config/config.default.js",
+    "dir": "/app/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/app/node_modules/egg-static/config/config.default.js",
+    "preload": "/app/node_modules/egg-static/config/config.default.js",
+    "buffer": "/app/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/app/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/app/node_modules/egg-view/config/config.default.js",
+    "cache": "/app/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/app/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/app/node_modules/egg-view/config/config.default.js",
+    "mapping": "/app/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/app/node_modules/egg/config/config.default.js",
+  "name": "/app/node_modules/egg/config/config.default.js",
+  "cookies": "/app/node_modules/egg/config/config.default.js",
+  "proxy": "/app/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/app/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/app/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/app/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/app/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/app/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/app/node_modules/egg/config/config.default.js",
+    "version": "/app/node_modules/egg/config/config.default.js",
+    "description": "/app/node_modules/egg/config/config.default.js",
+    "private": "/app/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/app/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "bcryptjs": "/app/node_modules/egg/config/config.default.js",
+      "dotenv": "/app/node_modules/egg/config/config.default.js",
+      "egg": "/app/node_modules/egg/config/config.default.js",
+      "egg-cors": "/app/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/app/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/app/node_modules/egg/config/config.default.js",
+      "koa-is-json": "/app/node_modules/egg/config/config.default.js",
+      "mongoose": "/app/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/app/node_modules/egg/config/config.default.js",
+      "autod-egg": "/app/node_modules/egg/config/config.default.js",
+      "egg-bin": "/app/node_modules/egg/config/config.default.js",
+      "egg-ci": "/app/node_modules/egg/config/config.default.js",
+      "egg-mock": "/app/node_modules/egg/config/config.default.js",
+      "eslint": "/app/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/app/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/app/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/app/node_modules/egg/config/config.default.js",
+      "stop": "/app/node_modules/egg/config/config.default.js",
+      "dev": "/app/node_modules/egg/config/config.default.js",
+      "debug": "/app/node_modules/egg/config/config.default.js",
+      "test": "/app/node_modules/egg/config/config.default.js",
+      "test-local": "/app/node_modules/egg/config/config.default.js",
+      "cov": "/app/node_modules/egg/config/config.default.js",
+      "lint": "/app/node_modules/egg/config/config.default.js",
+      "ci": "/app/node_modules/egg/config/config.default.js",
+      "autod": "/app/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/app/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/app/node_modules/egg/config/config.default.js",
+      "url": "/app/node_modules/egg/config/config.default.js"
+    },
+    "author": "/app/node_modules/egg/config/config.default.js",
+    "license": "/app/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/app/node_modules/egg/config/config.default.js",
+  "HOME": "/app/node_modules/egg/config/config.default.js",
+  "rundir": "/app/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/app/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/app/node_modules/egg/config/config.default.js",
+    "notFound": "/app/node_modules/egg/config/config.default.js",
+    "sitefile": "/app/node_modules/egg/config/config.default.js",
+    "middlewares": "/app/node_modules/egg/config/config.default.js",
+    "httpClient": "/app/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/app/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/app/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/app/node_modules/egg/config/config.default.js",
+    "encoding": "/app/node_modules/egg/config/config.default.js",
+    "formLimit": "/app/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/app/node_modules/egg/config/config.default.js",
+    "textLimit": "/app/node_modules/egg/config/config.default.js",
+    "strict": "/app/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/app/node_modules/egg/config/config.default.js",
+      "depth": "/app/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/app/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/app/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/app/node_modules/egg/config/config.default.js",
+    "encoding": "/app/node_modules/egg/config/config.default.js",
+    "env": "/app/node_modules/egg/config/config.default.js",
+    "level": "/app/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/app/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/app/node_modules/egg/config/config.default.js",
+    "outputJSON": "/app/node_modules/egg/config/config.default.js",
+    "buffer": "/app/node_modules/egg/config/config.default.js",
+    "appLogName": "/app/node_modules/egg/config/config.default.js",
+    "coreLogName": "/app/node_modules/egg/config/config.default.js",
+    "agentLogName": "/app/node_modules/egg/config/config.default.js",
+    "errorLogName": "/app/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/app/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/app/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/app/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/app/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/app/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/app/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/app/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/app/node_modules/egg/config/config.default.js",
+      "maxSockets": "/app/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/app/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/app/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/app/node_modules/egg/config/config.default.js",
+      "maxSockets": "/app/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/app/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/app/node_modules/egg/config/config.default.js",
+    "logging": "/app/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/app/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/app/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/app/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/app/node_modules/egg/config/config.default.js",
+      "port": "/app/node_modules/egg/config/config.default.js",
+      "hostname": "/app/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/app/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/app/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/app/node_modules/egg/config/config.default.js"
+}

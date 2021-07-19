@@ -1,0 +1,39 @@
+2021-07-19 16:39:08,195 INFO 3616 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 42651810ms at 2021-07-20 04:30:00.004
+2021-07-19 16:39:08,195 INFO 3616 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 26451805ms at 2021-07-20 00:00:00.000
+2021-07-19 16:39:08,196 INFO 3616 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 26452805ms at 2021-07-20 00:00:01.001
+2021-07-19 16:39:07,991 INFO 16072 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-19 16:39:07,991 INFO 16072 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-19 16:39:07,991 INFO 16072 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-19 16:47:38,099 INFO 12252 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 42141905ms at 2021-07-20 04:30:00.003
+2021-07-19 16:47:38,099 INFO 12252 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25941901ms at 2021-07-20 00:00:00.000
+2021-07-19 16:47:38,099 INFO 12252 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25942901ms at 2021-07-20 00:00:01.000
+2021-07-19 16:47:37,854 INFO 29048 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-19 16:47:37,854 INFO 29048 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-19 16:47:37,854 INFO 29048 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-19 16:48:56,460 INFO 27676 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-19 16:48:56,460 INFO 27676 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-19 16:48:56,460 INFO 27676 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-19 16:49:05,439 INFO 32512 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 42054564ms at 2021-07-20 04:30:00.003
+2021-07-19 16:49:05,439 INFO 32512 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25854561ms at 2021-07-20 00:00:00.000
+2021-07-19 16:49:05,439 INFO 32512 [Timer] D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25855561ms at 2021-07-20 00:00:01.000
+2021-07-19 16:49:05,255 INFO 9092 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-19 16:49:05,255 INFO 9092 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-07-19 16:49:05,255 INFO 9092 [egg-schedule]: register schedule D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-19 09:32:17,283 INFO 48 [Timer] /app/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 68262720ms at 2021-07-20 04:30:00.003
+2021-07-19 09:32:17,284 INFO 48 [Timer] /app/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 52062717ms at 2021-07-20 00:00:00.001
+2021-07-19 09:32:17,284 INFO 48 [Timer] /app/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 52063716ms at 2021-07-20 00:00:01.000
+2021-07-19 09:32:17,081 INFO 59 [egg-schedule]: register schedule /app/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-19 09:32:17,081 INFO 59 [egg-schedule]: register schedule /app/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-19 09:32:17,081 INFO 59 [egg-schedule]: register schedule /app/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-19 09:33:54,957 INFO 47 [Timer] /app/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 68165047ms at 2021-07-20 04:30:00.004
+2021-07-19 09:33:54,957 INFO 47 [Timer] /app/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 51965043ms at 2021-07-20 00:00:00.000
+2021-07-19 09:33:54,957 INFO 47 [Timer] /app/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51966043ms at 2021-07-20 00:00:01.000
+2021-07-19 09:33:54,794 INFO 58 [egg-schedule]: register schedule /app/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-19 09:33:54,794 INFO 58 [egg-schedule]: register schedule /app/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-19 09:33:54,794 INFO 58 [egg-schedule]: register schedule /app/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-19 09:39:00,369 INFO 48 [Timer] /app/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67859635ms at 2021-07-20 04:30:00.004
+2021-07-19 09:39:00,370 INFO 48 [Timer] /app/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 51659631ms at 2021-07-20 00:00:00.001
+2021-07-19 09:39:00,370 INFO 48 [Timer] /app/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51660630ms at 2021-07-20 00:00:01.000
+2021-07-19 09:39:00,185 INFO 59 [egg-schedule]: register schedule /app/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-19 09:39:00,186 INFO 59 [egg-schedule]: register schedule /app/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-07-19 09:39:00,186 INFO 59 [egg-schedule]: register schedule /app/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

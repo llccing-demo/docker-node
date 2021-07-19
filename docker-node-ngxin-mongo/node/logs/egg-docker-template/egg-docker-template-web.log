@@ -1,0 +1,250 @@
+2021-07-19 16:50:51,582 WARN 9092 [-/127.0.0.1/-/11ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:45:18)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:44:32)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at gzip (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\app\middleware\gzip.js:9:15)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 9092
+hostname: LAPTOP-99LJL1ND
+
+2021-07-19 16:50:57,605 WARN 9092 [-/127.0.0.1/-/1ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:45:18)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:44:32)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at gzip (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\app\middleware\gzip.js:9:15)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 9092
+hostname: LAPTOP-99LJL1ND
+
+2021-07-19 16:50:58,335 WARN 9092 [-/127.0.0.1/-/1ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:45:18)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:44:32)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at gzip (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\app\middleware\gzip.js:9:15)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 9092
+hostname: LAPTOP-99LJL1ND
+
+2021-07-19 16:50:58,568 WARN 9092 [-/127.0.0.1/-/1ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:45:18)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:44:32)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at gzip (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\app\middleware\gzip.js:9:15)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Projects\llccing-demo\docker-node\docker-node-ngxin-mongo\node\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 9092
+hostname: LAPTOP-99LJL1ND
+
+2021-07-19 09:39:47,001 WARN 59 [-/172.19.0.1/-/5ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/app/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at next (/app/node_modules/koa-compose/index.js:45:18)
+    at /app/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at /app/node_modules/koa-compose/index.js:36:12
+    at dispatch (/app/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/app/app/middleware/gzip.js:9:15)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /app/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/app/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/app/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/app/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 59
+hostname: ef5539b3119b
+
+2021-07-19 09:39:48,234 WARN 59 [-/172.19.0.1/-/1ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/app/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at next (/app/node_modules/koa-compose/index.js:45:18)
+    at /app/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at /app/node_modules/koa-compose/index.js:36:12
+    at dispatch (/app/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/app/app/middleware/gzip.js:9:15)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /app/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/app/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/app/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/app/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 59
+hostname: ef5539b3119b
+
+2021-07-19 09:39:48,621 WARN 59 [-/172.19.0.1/-/1ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/app/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at next (/app/node_modules/koa-compose/index.js:45:18)
+    at /app/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at /app/node_modules/koa-compose/index.js:36:12
+    at dispatch (/app/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/app/app/middleware/gzip.js:9:15)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /app/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/app/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/app/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/app/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 59
+hostname: ef5539b3119b
+
+2021-07-19 09:39:48,880 WARN 59 [-/172.19.0.1/-/1ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/app/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at next (/app/node_modules/koa-compose/index.js:45:18)
+    at /app/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at /app/node_modules/koa-compose/index.js:36:12
+    at dispatch (/app/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/app/app/middleware/gzip.js:9:15)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /app/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/app/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/app/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/app/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 59
+hostname: ef5539b3119b
+
+2021-07-19 09:39:49,063 WARN 59 [-/172.19.0.1/-/0ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/app/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at next (/app/node_modules/koa-compose/index.js:45:18)
+    at /app/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at /app/node_modules/koa-compose/index.js:36:12
+    at dispatch (/app/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/app/app/middleware/gzip.js:9:15)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /app/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/app/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/app/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/app/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 59
+hostname: ef5539b3119b
+
+2021-07-19 09:39:49,227 WARN 59 [-/172.19.0.1/-/0ms GET /] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/app/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at next (/app/node_modules/koa-compose/index.js:45:18)
+    at /app/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/app/node_modules/koa-compose/index.js:44:32)
+    at /app/node_modules/koa-compose/index.js:36:12
+    at dispatch (/app/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at gzip (/app/app/middleware/gzip.js:9:15)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /app/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/app/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/app/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/app/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/app/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 59
+hostname: ef5539b3119b
+
